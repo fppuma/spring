@@ -6,5 +6,17 @@
     - RepresentationModel Class.
 - [GreetingController](src/main/java/com/example/resthateoas/GreetingController.java)
     - getGreeting() returns a ResponseEntity of GreetingModel
-       
+    
+    
+http://localhost:8080/greeting
+```yaml
+{
+    "content": "Hello, World!",
+    "_links": {
+        "self": {
+            "href": "http://localhost:8080/greeting?name=World"
+        }
+    }
+}
+```
     
