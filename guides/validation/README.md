@@ -1,6 +1,11 @@
 # VALIDATION
 [Getting Started](https://spring.io/guides/gs/validating-form-input/)
 
+## Starting with Spring Initializr
+- Spring Web 
+- Thymeleaf 
+- Validation 
+
 ## Classes
 - [PersonForm](src/main/java/com/example/validation/PersonForm.java)
     - Form Class.
@@ -10,7 +15,7 @@
     - checkPersonInfo() validate form and shows result page.
     
 ## Pages
- - [form](src\main\resources\templates\form.html)
+ - [form](src/main/resources/templates/form.html)
  - [results](src/main/resources/templates/results.html)    
     
     
