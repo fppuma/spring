@@ -1,5 +1,8 @@
 # HATEOAS
-[Getting Started](https://spring.io/guides/gs/rest-hateoas/)
+[Getting Started Guides](https://spring.io/guides/gs/rest-hateoas/)
+
+## Starting with Spring Initializr
+- Spring HATEOAS
 
 ## Classes
 - [GreetingModel](src/main/java/com/example/resthateoas/GreetingModel.java)

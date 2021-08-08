@@ -1,5 +1,5 @@
 # VALIDATION
-[Getting Started](https://spring.io/guides/gs/validating-form-input/)
+[Getting Started Guides](https://spring.io/guides/gs/validating-form-input/)
 
 ## Starting with Spring Initializr
 - Spring Web 
