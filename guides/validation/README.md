@@ -8,7 +8,7 @@
 
 ## Classes
 - [PersonForm](src/main/java/com/example/validation/PersonForm.java)
-    - Form Class.
+    - Form Class. @NotNull @Size and @Min annotations.
 - [WebController](src/main/java/com/example/validation/WebController.java)
     - addViewControllers() binds /results to results.html
     - showForm() display form
