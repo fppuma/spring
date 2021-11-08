@@ -102,7 +102,7 @@ GET localhost:8080/people
 }
 ```
 
-GET http://localhost:8080/people/search/findByLastName?name=Baggins
+GET localhost:8080/people/search/findByLastName?name=Baggins
 
 ```json
 {
