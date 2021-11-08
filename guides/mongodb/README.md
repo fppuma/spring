@@ -33,7 +33,7 @@ local   0.000GB
 
 ## STARTING APP
 ```json
-GET localhost:8080
+// GET localhost:8080
 {
   "_links" : {
     "people" : {
@@ -46,10 +46,10 @@ GET localhost:8080
   }
 }
 
-POST localhost:8080/people { "firstName" : "Frodo", "lastName" : "Baggins" }
-POST localhost:8080/people { "firstName" : "Samwise", "lastName" : "Gamgee" }
+// POST localhost:8080/people { "firstName" : "Frodo", "lastName" : "Baggins" }
+// POST localhost:8080/people { "firstName" : "Samwise", "lastName" : "Gamgee" }
 
-GET localhost:8080/people
+// GET localhost:8080/people
 {
   "_embedded" : {
     "people" : [ {
@@ -95,7 +95,7 @@ GET localhost:8080/people
   }
 }
 
-GET http://localhost:8080/people/search/findByLastName?name=Baggins
+// GET http://localhost:8080/people/search/findByLastName?name=Baggins
 {
   "_embedded" : {
     "people" : [ {
