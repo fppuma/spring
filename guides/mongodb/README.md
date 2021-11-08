@@ -5,7 +5,7 @@
 - Rest Repositories
 - Spring Data MongoDB
 
-![Screenshot](img/spring_initial_mongo.png)
+![alt text](src/img/spring_initial_mongo.png)
 
 ## Files
 - [Person](src/main/java/com/example/mongodb/model/Person.java)
