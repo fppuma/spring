@@ -32,8 +32,10 @@ local   0.000GB
 ```
 
 ## STARTING APP
+
+GET localhost:8080
+
 ```json
-// GET localhost:8080
 {
   "_links" : {
     "people" : {
@@ -45,11 +47,15 @@ local   0.000GB
     }
   }
 }
+```
 
-// POST localhost:8080/people { "firstName" : "Frodo", "lastName" : "Baggins" }
-// POST localhost:8080/people { "firstName" : "Samwise", "lastName" : "Gamgee" }
+  
+POST localhost:8080/people { "firstName" : "Frodo", "lastName" : "Baggins" }  
+POST localhost:8080/people { "firstName" : "Samwise", "lastName" : "Gamgee" }  
 
-// GET localhost:8080/people
+GET localhost:8080/people  
+
+```json
 {
   "_embedded" : {
     "people" : [ {
@@ -94,8 +100,11 @@ local   0.000GB
     "number" : 0
   }
 }
+```
 
-// GET http://localhost:8080/people/search/findByLastName?name=Baggins
+GET http://localhost:8080/people/search/findByLastName?name=Baggins
+
+```json
 {
   "_embedded" : {
     "people" : [ {
